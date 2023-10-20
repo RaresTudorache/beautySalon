@@ -1,0 +1,304 @@
+<div class="headder-top d-md-flex">
+  <div id="logo">
+    <h1>
+      <a routerLink="/home">Rami hair & beauty</a>
+    </h1>
+  </div>
+  <!-- nav -->
+  <nav class="mx-md-auto">
+
+    <label for="drop" class="toggle">Menu</label>
+    <input type="checkbox" id="drop">
+    <ul class="menu mt-2">
+      <li routerLinkActive="active">
+        <a routerLink="/home">{{ "Home" | translate }}</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/about">{{ "About" | translate }}</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/service">{{ "Services" | translate }}</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/gallery" class="drop-text">{{ "Gallery" | translate }}</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/blog" class="drop-text">{{ "Blog" | translate }}</a>
+      </li>
+      <li>
+        <a routerLink="/contact">{{ "Contact" | translate }}</a>
+      </li>
+      <li>
+        <a routerLink="/contact">{{ "Products" | translate }}</a>
+      </li>
+      <li>
+        <div class="language-switcher">
+          <img src="assets/images/uk_flag.svg" alt="English" (click)="switchLanguage('en')" class="flag-icon">
+          <img src="assets/images/ro_flag.svg" alt="Romanian" (click)="switchLanguage('ro')" class="flag-icon">
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <!-- //nav -->
+</div>
+<div class="main-top" id="home">
+  <!-- banner -->
+  <div class="main-banner">
+    <div class="container">
+      <div class="style-banner ">
+        <h4 class="mb-2">Elegance</h4>
+        <h4 class="mb-2">in every</h4>
+        <h4 class="">cut</h4>
+        <h5 class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">Where Your Hair Tells the Story</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- //banner -->
+<section class="about py-lg-4 py-md-3 py-sm-3 py-3">
+  <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+    <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">
+      <div class="title col-lg-4 col-md-4 text-center">
+        <h3 class="clr">{{ "About" | translate }}</h3>
+      </div>
+      <div class="line-grided-title col-lg-8 col-md-8">
+        <p>{{ "About us" | translate }}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+        <div class="about-fashion-grid ">
+          <div class="about-icon ">
+            <span class="fa fa-scissors" aria-hidden="true"></span>
+          </div>
+          <div class="about-tree-grid mb-3 mt-lg-4 mt-3">
+            <h4>Haircut</h4>
+          </div>
+          <p>From timeless classics to contemporary styles, our haircuts are tailored to fit your unique personality.
+            Rami's meticulous attention to detail guarantees a look you'll love.</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+        <div class="about-fashion-grid ">
+          <div class="about-icon ">
+            <span class="fa fa-paint-brush" aria-hidden="true"></span>
+          </div>
+          <div class="about-tree-grid mb-3 mt-lg-4 mt-3">
+            <h4>Hair Color
+            </h4>
+          </div>
+          <p>Illuminate your essence with our exceptional hair coloring services. From radiant reds to brilliant
+            blondes, we masterfully blend shades to enhance your natural beauty </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 my-3 ">
+        <div class="about-fashion-grid ">
+          <div class="about-icon ">
+            <span class="fa fa-fire-extinguisher" aria-hidden="true"></span>
+          </div>
+          <div class="about-tree-grid mb-3 mt-lg-4 mt-3">
+            <h4>Hair Spray</h4>
+          </div>
+          <p>Achieve that flawless finish with our premium hair sprays. Whether it's for a daily look or a special
+            occasion, our sprays ensure your style stays perfect throughout </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 my-3 ">
+        <div class="about-fashion-grid ">
+          <div class="about-icon ">
+            <span class="fa fa-shower" aria-hidden="true"></span>
+          </div>
+          <div class="about-tree-grid mb-3 mt-lg-4 mt-3">
+            <h4>Hair Wash</h4>
+          </div>
+          <p>Our professional hair experts use a blend of premium shampoos and conditioners tailored to your hair type.
+            Each wash is followed by a relaxing scalp massage, promoting circulation and offering a moment of
+            tranquility in your busy day.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--//about -->
+<!-- service -->
+<section class="service py-lg-4 py-md-3 py-sm-3 py-3">
+  <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+    <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">
+      <div class="title col-lg-4 col-md-4 text-center">
+        <h3 class="clr">Our Services</h3>
+      </div>
+      <div class="line-grided-title col-lg-8 col-md-8 ">
+        <p>Discover unparalleled excellence with our range of bespoke hair services. From classic cuts to avant-garde
+          coloring, every service is a testament to our dedication to style and individuality. Entrust your tresses to
+          our seasoned professionals, and let us unveil the best version of you. </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 jst-img-grided">
+        <div class="service-grid-tree mt-lg-5 mt-md-4 my-3">
+          <h4>Hair Extensions</h4>
+          <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+            <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
+              <span class="fa fa-magic mt-2" aria-hidden="true"></span>
+            </div>
+            <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum </p>
+            </div>
+          </div>
+        </div>
+        <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
+          <h4>Hair Colouring</h4>
+          <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+            <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
+              <span class="fa fa-paint-brush mt-2" aria-hidden="true"></span>
+            </div>
+            <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum </p>
+            </div>
+          </div>
+        </div>
+        <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
+
+          <h4>Highlights</h4>
+          <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+            <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
+              <span class="fa fa-tachometer mt-2" aria-hidden="true"></span>
+            </div>
+            <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 jst-img-grided">
+        <img src="assets/images/s1.jpg" alt="news image" class="img-fluid">
+
+      </div>
+      <div class="col-lg-4 text-lg-right jst-img-grided">
+        <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
+          <h4>Hair Colouring</h4>
+          <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+
+            <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
+              <p>From timeless classics to contemporary styles, our haircuts are tailored to fit your unique
+                personality. Rami's meticulous attention to detail guarantees a look you'll love.</p>
+            </div>
+            <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
+              <span class="fa fa-paint-brush mt-2" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+        <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
+
+          <h4>Highlights</h4>
+          <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+
+            <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum </p>
+            </div>
+            <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
+              <span class="fa fa-tachometer mt-2" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+        <div class="service-grid-tree mt-lg-5 mt-md-4 my-3">
+
+          <h4>Hair Extensions</h4>
+          <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+
+            <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum </p>
+            </div>
+            <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
+              <span class="fa fa-magic mt-2" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- //service -->
+<!-- blog -->
+<section class="blog py-lg-4 py-md-3 py-sm-3 py-3">
+  <div class="container pt-lg-5 pt-md-5 pt-sm-4 pt-3">
+    <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">
+      <div class="title col-lg-4 col-md-4  text-center">
+        <h3 class="clr">Latest Blog</h3>
+      </div>
+      <div class="line-grided-title col-lg-8 col-md-8 ">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor
+          sit
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore Lorem ipsum dolor sit amet,
+          consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt labore </p>
+      </div>
+    </div>
+    <div class="blog-layts-position position-relative">
+      <img src="assets/images/s2.jpg" alt="news image" class="img-fluid">
+      <div class="blog-some-txt">
+        <div class="color-number mb-lg-4 mb-3">
+          <h5>1</h5>
+        </div>
+        <div class="blog-left-tree ">
+          <h4 class="pb-3">
+            <a href="single.html">Wedding Hair Style</a>
+          </h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non Lorem
+            ipsum
+          </p>
+        </div>
+        <div class="blog-buttn mt-md-4 mt-3">
+          <a href="single.html">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="blog-mid-position position-relative">
+
+    <div class="blog-mid-txt">
+      <div class="color-number mb-lg-4 mb-3">
+        <h5>2</h5>
+      </div>
+      <div class="blog-left-tree ">
+        <h4 class="pb-3">
+          <a href="single.html">Awesome Hair Looks</a>
+        </h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non Lorem
+          ipsum
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non Lorem
+          ipsum
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non Lorem
+          ipsum
+        </p>
+      </div>
+      <div class="blog-buttn mt-md-4 mt-3">
+        <a href="single.html">Read More</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="blog-layts-position position-relative">
+      <img src="assets/images/s4.jpg" alt="news image" class="img-fluid">
+      <div class="blog-some-txt">
+        <div class="color-number mb-lg-4 mb-3">
+          <h5>3</h5>
+        </div>
+        <div class="blog-left-tree ">
+          <h4 class="pb-3">
+            <a href="single.html">New Hair Style</a>
+          </h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non Lorem
+            ipsum
+          </p>
+        </div>
+        <div class="blog-buttn mt-md-4 mt-3">
+          <a href="single.html">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--//blog -->

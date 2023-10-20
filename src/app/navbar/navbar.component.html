@@ -1,0 +1,47 @@
+
+    <!-- header -->
+    <div class="header-outs inner_page-banner" id="home">
+    <div class="headder-top d-md-flex">
+      <div id="logo">
+        <h1>
+          <a routerLink="/home">Rami hair & beauty</a>
+        </h1>
+      </div>
+      <!-- nav -->
+      <nav class="mx-md-auto">
+
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop">
+        <ul class="menu mt-2">
+          <li routerLinkActive="active">
+            <a routerLink="/home">{{ "Home" | translate }}</a>
+          </li>
+          <li routerLinkActive="active">
+            <a routerLink="/about">{{ "About" | translate }}</a>
+          </li>
+          <li routerLinkActive="active">
+            <a routerLink="/service">{{ "Services" | translate }}</a>
+          </li>
+          <li routerLinkActive="active">
+            <a routerLink="/gallery" class="drop-text">{{ "Gallery" | translate }}</a>
+          </li>
+          <li routerLinkActive="active">
+            <a routerLink="/blog" class="drop-text">{{ "Blog" | translate }}</a>
+          </li>
+          <li>
+            <a routerLink="/contact">{{ "Contact" | translate }}</a>
+          </li>
+          <li>
+            <a routerLink="/contact">{{ "Products" | translate }}</a>
+          </li>
+          <li>
+            <div class="language-switcher">
+              <img src="assets/images/uk_flag.svg" alt="English" (click)="switchLanguage('en')" class="flag-icon">
+              <img src="assets/images/ro_flag.svg" alt="Romanian" (click)="switchLanguage('ro')" class="flag-icon">
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+ 

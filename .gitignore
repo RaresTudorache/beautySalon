@@ -1,7 +1,11 @@
-# Dependency directories
-node_modules/
-bower_components/
+# Ignore all files in the .angular/cache directory
+.angular/cache/
 
+# Ignore node_modules directory
+node_modules/
+
+# Ignore all .log files
+*.log
 
 # dotenv environment variable files
 .env
@@ -33,27 +37,6 @@ dist
 # Svelte build folder
 /public/build/
 
-# Output of 'npm pack'
-*.tgz
 
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
 
-# Editor directories and files
-.idea
-*.swp
-*.swo
-.vscode
-*.sublime-workspace
-*.sublime-project
-
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
 

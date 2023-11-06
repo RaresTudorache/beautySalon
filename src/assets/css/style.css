@@ -294,6 +294,22 @@ nav ul ul li a {
 }
 
 
+.service-image {
+    margin-bottom: 20px; /* Adds space between images */
+    overflow: hidden; /* Hides the overflow if the image is larger than the div */
+    border-radius: 10px; /* Gives the container rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to elevate the image */
+}
+
+.img-fluid.service-pic {
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.service-image:hover .img-fluid.service-pic {
+    transform: scale(1.05); /* Zooms the image in slightly on hover for an interactive feel */
+}
+
+
 /* Second, Third and more Tiers	
 * We move the 2nd and 3rd etc tier dropdowns to the left
 * by the amount of the width of the first tier.
@@ -640,7 +656,7 @@ background-color: #212121;
     font-weight: bolder;
     line-height: 71px;
     letter-spacing: 9px;
-    text-shadow: 2px 1px 20px #212121;
+    text-shadow: 2px 1px 20px #fff;
 }
 
 
@@ -723,7 +739,7 @@ ul.short_ls li {
 }
 /* //service */
 .blog-layts-position {
-    width: 74%;
+    width: 100%;
     margin: 0px auto;
 	}
 .blog-some-txt,.blog-mid-txt {
@@ -733,18 +749,22 @@ ul.short_ls li {
     box-shadow: 0 0 6px 0px #d4d4d4;
 
 }
+/* Remove bottom margin from any elements that might be causing space at the bottom */
+.color-number, .blog-left-tree, .blog-buttn {
+    margin-bottom: 0;
+}
 .blog-some-txt{   
  top: -33px;
     right: -47px;
     width: 52%;}
 .blog-mid-position{
-    background: url(../images/s3.jpg) no-repeat;
+    background: url(../images/yellow.jpg) no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 583px;
+    min-height: 783px;
 }
 .blog-mid-txt {
     width: 29%;
@@ -768,7 +788,7 @@ ul.short_ls li {
 .color-number {
     width: 45px;
     height: 49px;
-    background: #ff0779;
+    /* background: #ff0779; */
     box-shadow: 0px 0px 4px #adadad;
 }
 .color-number h5 {

@@ -1,0 +1,45 @@
+.employees-section {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+}
+
+.employees-section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+    font-size: 28px;
+}
+
+.employees-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* creates 3 columns of equal width */
+    gap: 40px; /* space between rows and columns */
+    max-width: 1200px; /* adjust this as needed */
+    margin: 0 auto; /* centers the grid in its container */
+}
+
+.employee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employee img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.employee h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.employee p {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+}

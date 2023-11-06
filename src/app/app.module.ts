@@ -15,6 +15,7 @@ import { HomeComponent } from './home/home.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { ProductsComponent } from './products/products.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http,'./assets/i18n/', '.json');
@@ -31,7 +32,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     SingleComponent,
     NavbarComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

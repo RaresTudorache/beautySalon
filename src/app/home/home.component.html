@@ -20,16 +20,16 @@
         <a routerLink="/service">{{ "Services" | translate }}</a>
       </li>
       <li routerLinkActive="active">
+        <a routerLink="/products">{{ "Products" | translate }}</a>
+      </li>
+      <li routerLinkActive="active">
         <a routerLink="/gallery" class="drop-text">{{ "Gallery" | translate }}</a>
       </li>
       <li routerLinkActive="active">
         <a routerLink="/blog" class="drop-text">{{ "Blog" | translate }}</a>
       </li>
-      <li>
+      <li routerLinkActive="active">
         <a routerLink="/contact">{{ "Contact" | translate }}</a>
-      </li>
-      <li>
-        <a routerLink="/contact">{{ "Products" | translate }}</a>
       </li>
       <li>
         <div class="language-switcher">
@@ -48,7 +48,7 @@
       <div class="style-banner ">
         <h4 class="mb-2">Elegance</h4>
         <h4 class="mb-2">in every</h4>
-        <h4 class="">cut</h4>
+        <h4 class="mb-2">cut</h4>
         <h5 class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">Where Your Hair Tells the Story</h5>
       </div>
     </div>
@@ -62,7 +62,7 @@
         <h3 class="clr">{{ "About" | translate }}</h3>
       </div>
       <div class="line-grided-title col-lg-8 col-md-8">
-        <p>{{ "About us" | translate }}</p>
+        <p> <span class="owner">{{"Aboutus-0" | translate}}</span> {{ "About us" | translate }}</p>
       </div>
     </div>
     <div class="row">
@@ -119,64 +119,64 @@
   <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
     <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">
       <div class="title col-lg-4 col-md-4 text-center">
-        <h3 class="clr">Our Services</h3>
+        <h3 class="clr">{{ "OurServices" | translate }}</h3>
       </div>
       <div class="line-grided-title col-lg-8 col-md-8 ">
-        <p>Discover unparalleled excellence with our range of bespoke hair services. From classic cuts to avant-garde
-          coloring, every service is a testament to our dedication to style and individuality. Entrust your tresses to
-          our seasoned professionals, and let us unveil the best version of you. </p>
+        <p>{{"OurServices-about" | translate}} </p>
       </div>
     </div>
     <div class="row">
       <div class="col-lg-4 jst-img-grided">
         <div class="service-grid-tree mt-lg-5 mt-md-4 my-3">
-          <h4>Hair Extensions</h4>
+          <h4>{{"HairExtensions" | translate}}</h4>
           <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
             <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
               <span class="fa fa-magic mt-2" aria-hidden="true"></span>
             </div>
             <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum </p>
+              <p>{{"HairExtensions-about" | translate}} </p>
             </div>
           </div>
         </div>
         <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
-          <h4>Hair Colouring</h4>
+          <h4>{{"HairColoring" | translate}}</h4>
           <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
             <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
               <span class="fa fa-paint-brush mt-2" aria-hidden="true"></span>
             </div>
             <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum </p>
+              <p>{{"HairColoring-about" | translate}} </p>
             </div>
           </div>
         </div>
         <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
-
-          <h4>Highlights</h4>
+          <h4>{{"Highlights" | translate}}</h4>
           <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
             <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
               <span class="fa fa-tachometer mt-2" aria-hidden="true"></span>
             </div>
             <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum </p>
+              <p>{{"Highlights-about" | translate}}</p>
             </div>
 
           </div>
         </div>
       </div>
       <div class="col-lg-4 jst-img-grided">
-        <img src="assets/images/s1.jpg" alt="news image" class="img-fluid">
-
-      </div>
+        <div class="service-image">
+            <img src="assets/images/services.jpeg" alt="news image" class="img-fluid service-pic">
+        </div>
+        <div class="service-image">
+            <img src="assets/images/services2.jpeg" alt="news image" class="img-fluid service-pic">
+        </div>
+    </div>
       <div class="col-lg-4 text-lg-right jst-img-grided">
         <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
-          <h4>Hair Colouring</h4>
+          <h4>{{"HairColoring" | translate}}</h4>
           <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
 
             <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-              <p>From timeless classics to contemporary styles, our haircuts are tailored to fit your unique
-                personality. Rami's meticulous attention to detail guarantees a look you'll love.</p>
+              <p>{{"HairColoring-about" | translate}}</p>
             </div>
             <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
               <span class="fa fa-paint-brush mt-2" aria-hidden="true"></span>
@@ -185,11 +185,11 @@
         </div>
         <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
 
-          <h4>Highlights</h4>
+          <h4>{{"Highlights" | translate}}</h4>
           <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
 
             <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum </p>
+              <p>{{"Highlights-about" | translate}}</p>
             </div>
             <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
               <span class="fa fa-tachometer mt-2" aria-hidden="true"></span>
@@ -198,11 +198,11 @@
         </div>
         <div class="service-grid-tree mt-lg-5 mt-md-4 my-3">
 
-          <h4>Hair Extensions</h4>
+          <h4>{{"HairExtensions" | translate}}</h4>
           <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
 
             <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum </p>
+              <p>{{"HairExtensions-about" | translate}}</p>
             </div>
             <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
               <span class="fa fa-magic mt-2" aria-hidden="true"></span>
@@ -219,28 +219,23 @@
   <div class="container pt-lg-5 pt-md-5 pt-sm-4 pt-3">
     <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">
       <div class="title col-lg-4 col-md-4  text-center">
-        <h3 class="clr">Latest Blog</h3>
+        <h3 class="clr">Specials</h3>
       </div>
       <div class="line-grided-title col-lg-8 col-md-8 ">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt Lorem ipsum dolor
-          sit
-          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore Lorem ipsum dolor sit amet,
-          consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt labore </p>
+        <p>{{"Specials-about" | translate}}</p>
       </div>
     </div>
     <div class="blog-layts-position position-relative">
-      <img src="assets/images/s2.jpg" alt="news image" class="img-fluid">
+      <img src="assets/images/wed.jpg" alt="news image" class="img-fluid">
       <div class="blog-some-txt">
         <div class="color-number mb-lg-4 mb-3">
           <h5>1</h5>
         </div>
         <div class="blog-left-tree ">
           <h4 class="pb-3">
-            <a href="single.html">Wedding Hair Style</a>
+            <a href="single.html">{{"WeddingHairStyle" | translate}}</a>
           </h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non Lorem
-            ipsum
+          <p>{{"WeddingHairStyle-about" | translate}}
           </p>
         </div>
         <div class="blog-buttn mt-md-4 mt-3">
@@ -257,14 +252,9 @@
       </div>
       <div class="blog-left-tree ">
         <h4 class="pb-3">
-          <a href="single.html">Awesome Hair Looks</a>
+          <a href="single.html">{{"AwsomeLooks" | translate}}</a>
         </h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non Lorem
-          ipsum
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non Lorem
-          ipsum
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non Lorem
-          ipsum
+        <p>{{"AwesomeLooks-about"| translate}}
         </p>
       </div>
       <div class="blog-buttn mt-md-4 mt-3">
@@ -274,17 +264,16 @@
   </div>
   <div class="container">
     <div class="blog-layts-position position-relative">
-      <img src="assets/images/s4.jpg" alt="news image" class="img-fluid">
+      <img src="assets/images/nails.jpg" alt="news image" class="img-fluid">
       <div class="blog-some-txt">
         <div class="color-number mb-lg-4 mb-3">
           <h5>3</h5>
         </div>
         <div class="blog-left-tree ">
           <h4 class="pb-3">
-            <a href="single.html">New Hair Style</a>
+            <a href="single.html">{{"Nails" | translate}}</a>
           </h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non Lorem
-            ipsum
+          <p>{{"Nails-about" | translate}}
           </p>
         </div>
         <div class="blog-buttn mt-md-4 mt-3">

@@ -6,7 +6,8 @@
     "Gallery": "Gallery",
     "Blog": "Blog",
     "Contact": "Contact",
-    "About us": "At Rami Hair&Beauty Salon, your hair is our canvas. Founded by Rami, a passionate stylist with roots in the heart of Lebanon, our salon embodies the spirit of both tradition and innovation. With years of experience both in Lebanon and abroad, Rami has honed his craft to perfection. Every cut, color, and style is a testament to his dedication and love for hairdressing. Here, we don't just style hair; we bring dreams to life, ensuring every client walks out feeling confident and beautiful.",
+    "Aboutus-0": "At Rami Hair&Beauty Salon,",
+    "About us": " your hair is our canvas. Founded by Rami, a passionate stylist with roots in the heart of Lebanon, our salon embodies the spirit of both tradition and innovation. With years of experience both in Lebanon and abroad, Rami has honed his craft to perfection. Every cut, color, and style is a testament to his dedication and love for hairdressing. Here, we don't just style hair; we bring dreams to life, ensuring every client walks out feeling confident and beautiful.",
     "Haircut": "Haircut",
     "Haircut-about": "From timeless classics to contemporary styles, our haircuts are tailored to fit your unique personality. Rami's meticulous attention to detail guarantees a look you'll love.",
     "Haircolor": "Hair color",
@@ -14,6 +15,21 @@
     "Hairspray": "Hair spray",
     "Hairspray-about": "Achieve that flawless finish with our premium hair sprays. Whether it's for a daily look or a special occasion, our sprays ensure your style stays perfect throughout",
     "Hairwash": "Hair wash",
-    "Hairwash-about": "Our professional hair experts use a blend of premium shampoos and conditioners tailored to your hair type. Each wash is followed by a relaxing scalp massage, promoting circulation and offering a moment of tranquility in your busy day."
+    "Hairwash-about": "Our professional hair experts use a blend of premium shampoos and conditioners tailored to your hair type. Each wash is followed by a relaxing scalp massage, promoting circulation and offering a moment of tranquility in your busy day.",
+    "OurServices": "Our Services",
+    "OurServices-about": "Discover unparalleled excellence with our range of bespoke hair services. From classic cuts to avant-garde coloring, every service is a testament to our dedication to style and individuality. Entrust your tresses to our seasoned professionals, and let us unveil the best version of you.",
+    "HairExtensions": "Hair extensions",
+    "HairExtensions-about": "Elevate your style with our premium hair extensions. Perfect for adding length, volume, or even a splash of color, our extensions seamlessly blend with your natural hair for a transformative look.",
+    "HairColoring": "Hair coloring",
+    "HairColoring-about": "Rediscover yourself with our expert hair colouring services. Whether it's a subtle shade or a vibrant hue, we ensure a personalized touch that complements your skin tone and personality.",
+    "Highlights": "Highlights",
+    "Highlights-about": "Illuminate your hair with our expert highlighting services. Designed to accentuate and add dimension, our highlights bring a radiant glow and make your hair stand out.",
+    "Specials-about":"Dive into our exclusive offers and curated selections in the 'Specials' section. From limited-time deals to seasonal hair trends, we showcase the best of what our salon has to offer. Stay ahead of the curve and pamper yourself with these handpicked services.",
+    "WeddingHairStyle": "Wedding Hair Style",
+    "WeddingHairStyle-about": "Elevate your special day with our bespoke wedding hair styling service. Tailored to your vision, we create elegant and timeless hairstyles that complement your bridal look, ensuring you radiate confidence as you walk down the aisle.",
+    "AwsomeLooks": "Awesome Hair Looks",
+    "AwesomeLooks-about": "Discover the transformative power of a fresh hairstyle. Whether you're craving a trendy change or a classic cut, our stylists are adept at sculpting the perfect look that enhances your features and reflects your personality.",
+    "Nails":"Luxe Nail Elegance",
+    "Nails-about":"Experience the epitome of hand care with our Luxe Nail Elegance service. From expertly sculpted acrylics to the softest gel finishes, every detail is meticulously crafted for beauty and durability. Step into a world where your nails speak volumes about your personal style."
   }
   

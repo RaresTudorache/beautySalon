@@ -6,7 +6,8 @@
     "Gallery": "Galerie",
     "Blog": "Blog",
     "Contact": "Contact",
-    "About us": "La Salonul Rami Hair&Beauty, părul tău este pânza noastră. Fondat de Rami, un stilist pasionat cu rădăcini în inima Libanului, salonul nostru întruchipează spiritul tradiției și inovației. Cu ani de experiență atât în Liban cât și în străinătate, Rami și-a perfecționat meșteșugul la nivel de excelență. Fiecare tăietură, culoare și stil reflectă dedicația și dragostea lui pentru coafură. Aici, nu doar coafăm părul; aducem visele la viață, asigurându-ne că fiecare client pleacă simțindu-se încrezător și frumos.",
+    "Aboutus-0": "La Salonul Rami Hair&Beauty,",
+    "About us": " părul tău este pânza noastră. Fondat de Rami, un stilist pasionat cu rădăcini în inima Libanului, salonul nostru întruchipează spiritul tradiției și inovației. Cu ani de experiență atât în Liban cât și în străinătate, Rami și-a perfecționat meșteșugul la nivel de excelență. Fiecare tăietură, culoare și stil reflectă dedicația și dragostea lui pentru coafură. Aici, nu doar coafăm părul; aducem visele la viață, asigurându-ne că fiecare client pleacă simțindu-se încrezător și frumos.",
     "Haircut": "Tuns",
     "Haircut-about": "De la clasicele atemporale la stilurile contemporane, tunsorile noastre sunt adaptate pentru a se potrivi personalității tale unice. Atentia meticuloasă a lui Rami garantează un look care îți va plăcea.",
     "Haircolor": "Vopsit",
@@ -14,6 +15,21 @@
     "Hairspray": "Fixativ",
     "Hairspray-about": "Obțineți un finisaj perfect cu spray-urile noastre premium pentru păr. Fie că este vorba de un look zilnic sau de o ocazie specială, spray-urile noastre asigură că stilul tău rămâne perfect pe parcursul întregii zile.",
     "Hairwash": "Spalat",
-    "Hairwash-about": "Experții noștri profesioniști în îngrijirea părului folosesc un amestec de șampoane și balsamuri premium, adaptate tipului tău de păr. Fiecare spălare este urmată de un masaj relaxant al scalpului, promovând circulația și oferind un moment de liniște în ziua ta aglomerată."
+    "Hairwash-about": "Experții noștri profesioniști în îngrijirea părului folosesc un amestec de șampoane și balsamuri premium, adaptate tipului tău de păr. Fiecare spălare este urmată de un masaj relaxant al scalpului, promovând circulația și oferind un moment de liniște în ziua ta aglomerată.",
+    "OurServices": "Serviciile noastre",
+    "OurServices-about": "Descoperă excelență fără egal cu gama noastră de servicii personalizate pentru păr. De la tăieturi clasice până la colorare avangardistă, fiecare serviciu este o mărturie a dedicării noastre față de stil și individualitate. Încredințează-ți părul profesioniștilor noștri experimentați și permite-ne să dezvăluim cea mai bună versiune a ta.",
+    "HairExtensions": "Extensii de par",
+    "HairExtensions-about": "Îmbunătățește-ți stilul cu extensiile noastre premium pentru păr. Perfecte pentru adăugarea de lungime, volum sau chiar un strop de culoare, extensiile noastre se combină fără probleme cu părul tău natural pentru un look transformativ.",
+    "HairColoring": "Vopsirea parului",
+    "HairColoring-about": "Redescoperă-te cu serviciile noastre experte de colorare a părului. Fie că este o nuanță subtilă sau o culoare vibrantă, ne asigurăm că oferim o atingere personalizată care să se potrivească cu tonul tău de piele și personalitate.",
+    "Highlights:": "Șuvițe",
+    "Highlights-about": "Subliniază frumusețea părului tău cu serviciul nostru de șuvițe. Adaugă profunzime și lumină în nuanța părului tău, obținând un efect natural și strălucitor. Fie că dorești o schimbare discretă sau un contrast puternic, experții noștri sunt gata să îți ofere exact ceea ce îți dorești.",
+    "Specials-about": "Descoperiți ofertele noastre exclusive și selecțiile atent curate în secțiunea 'Speciale'. De la promoții limitate în timp până la tendințele sezoniere în coafură, prezentăm tot ce are mai bun salonul nostru. Fiți un pas înaintea tuturor și răsfățați-vă cu aceste servicii alese cu grijă.",
+    "WeddingHairStyle": "Coafură pentru Nuntă",
+    "WeddingHairStyle-about": "Fiecare mireasă merită să strălucească în ziua nunții sale. Cu serviciul nostru de coafură pentru nuntă, vă oferim un stil care reflectă personalitatea și eleganța dvs., asigurându-vă că veți fi în centrul atenției.",
+    "AwsomeLooks": "Stiluri Impresionante de Par",
+    "AwesomeLooks-about": "Reinventează-te cu fiecare vizită la salonul nostru. De la buclele voluminoase până la dreptul lustruit, echipa noastră de experți vă va ajuta să găsiți look-ul perfect care să vă scoată în evidență frumusețea naturală și să vă îmbunătățească încrederea în sine.",
+    "Nails": "Unghii",
+    "Nails-about": "Înfrumusețați-vă mâinile cu serviciile noastre de manichiură și pedichiură. De la unghiile clasice la cele extravagante, oferim o gamă largă de opțiuni pentru a vă îmbunătăți stilul și a vă pune în evidență personalitatea."
   }
   

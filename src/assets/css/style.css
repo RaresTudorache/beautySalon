@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 html {
   scroll-behavior: smooth;
 }
@@ -67,7 +67,8 @@ h6 {
   margin: 0;
   padding: 0;
   letter-spacing: 1px;
-  font-family: 'Pacifico', cursive;
+    font-family: 'Source Sans Pro', sans-serif !important;
+
 }
 
 p {
@@ -216,7 +217,7 @@ nav ul li ul li:hover {
 }
 
 .menu .active a {
-    color: #ff0779; /* Active link color. Again, consider Gold for premium feel, or another distinct color. */
+    color: #dcb704; /* Active link color. Again, consider Gold for premium feel, or another distinct color. */
     text-decoration: underline; /* Optional: Add an underline or any other style to indicate it's the active page. */
 }
 
@@ -247,7 +248,7 @@ nav ul li ul li:hover {
 
 .menu li a:hover {
   opacity: 0.8;
-  color: #fff;
+  color:orange;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
@@ -626,20 +627,27 @@ background-color: #212121;
 /* banner */
 
 .main-top {
-  background: url(../images/b4.jpg) no-repeat bottom;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
-  min-height: 800px;
+    background-size: cover;
+    background: url(../images/bg-mini-banner.jpeg) no-repeat fixed bottom;
+    /* -webkit-background-size: cover; */
+  /* -moz-background-size: cover; */
+  /* -o-background-size: cover; */
+  /* -ms-background-size: cover; */
+  background-size:  1200px;
+  min-height: 1000px;
 }
 
+
 .headder-top {
-    background: transparent;
+    background: white;
     position: absolute;
     width: 100%;
-    padding: 1em 2em;
+    padding: 0 2em;
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
 }
 
 .style-banner {
@@ -648,15 +656,19 @@ background-color: #212121;
 
 .style-banner h5 {
     font-size: 28px;
-    color: #dcb704;
+    /*color: #dcb704;*/
+    color: white;
 }
 .main-banner h4 {
-    color: #ff0779;
+    color: white;
     font-size: 4.5em;
     font-weight: bolder;
     line-height: 71px;
     letter-spacing: 9px;
     text-shadow: 2px 1px 20px #fff;
+}
+.main-banner .style-banner-first-letter{
+    color:black;
 }
 
 
@@ -714,7 +726,6 @@ ul.short_ls li {
     cursor: pointer;
     width: 32px; /* Adjust based on your preference */
     height: auto;
-    border: 1px solid #ccc; /* Optional border */
     border-radius: 4px; /* Optional rounded corners */
     transition: transform 0.3s ease; /* Smooth hover effect */
 }
@@ -1013,6 +1024,7 @@ font-size:14px;
 
 .main-top {
     min-height: 680px;
+    background-size: cover !important;
 }	
 .style-banner {
     padding-top: 12.5em;

@@ -1,8 +1,6 @@
-<div class="headder-top d-md-flex">
+<div class="headder-top d-md-flex align-items-center">
   <div id="logo">
-    <h1>
-      <a routerLink="/home">Rami hair & beauty</a>
-    </h1>
+      <a routerLink="/home"><img class="logo" src="./assets/images/logo.jpg" alt=""></a>
   </div>
   <!-- nav -->
   <nav class="mx-md-auto">
@@ -31,22 +29,21 @@
       <li routerLinkActive="active">
         <a routerLink="/contact">{{ "Contact" | translate }}</a>
       </li>
-      <li>
-        <div class="language-switcher">
-          <img src="assets/images/uk_flag.svg" alt="English" (click)="switchLanguage('en')" class="flag-icon">
-          <img src="assets/images/ro_flag.svg" alt="Romanian" (click)="switchLanguage('ro')" class="flag-icon">
-        </div>
-      </li>
     </ul>
+
   </nav>
+  <div class="language-switcher">
+    <img src="assets/images/uk_flag.svg" alt="English" (click)="switchLanguage('en')" class="flag-icon">
+    <img src="assets/images/ro_flag.svg" alt="Romanian" (click)="switchLanguage('ro')" class="flag-icon">
+  </div>
   <!-- //nav -->
 </div>
 <div class="main-top" id="home">
   <!-- banner -->
   <div class="main-banner">
-    <div class="container">
+    <div class="container container-main-banner">
       <div class="style-banner ">
-        <h4 class="mb-2">Elegance</h4>
+        <h4 class="mb-2"><span class="style-banner-first-letter">E</span>legance</h4>
         <h4 class="mb-2">in every</h4>
         <h4 class="mb-2">cut</h4>
         <h5 class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">Where Your Hair Tells the Story</h5>

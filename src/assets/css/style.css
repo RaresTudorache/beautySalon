@@ -211,6 +211,12 @@ nav ul li ul li:hover {
     transition: color 0.3s; /* Transition effect for smooth color change on hover */
 }
 
+@media (max-width:768px) {
+    .menu a{
+        color:white;
+    }
+}
+
 /* Hover Effect for Links */
 .menu a:hover {
     color: #ff0779; /* Gold color for hover. You can change this to any color you like. */
@@ -628,13 +634,19 @@ background-color: #212121;
 
 .main-top {
     background-size: cover;
-    background: url(../images/bg-mini-banner.jpeg) no-repeat fixed bottom;
-    /* -webkit-background-size: cover; */
-  /* -moz-background-size: cover; */
-  /* -o-background-size: cover; */
-  /* -ms-background-size: cover; */
-  background-size:  1200px;
+    background: url(../images/mini-banner-background-4.jpg) no-repeat fixed bottom;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
   min-height: 1000px;
+}
+
+.container-main-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
 
 
@@ -667,10 +679,6 @@ background-color: #212121;
     letter-spacing: 9px;
     text-shadow: 2px 1px 20px #fff;
 }
-.main-banner .style-banner-first-letter{
-    color:black;
-}
-
 
 /* //banner */
 /*--inner-banner -- */
@@ -1078,6 +1086,11 @@ font-size:14px;
 }
 }
 @media(max-width:1280px){
+
+    .container-main-banner{
+        padding-top:100px;
+    }
+
 .about-icon span {
     font-size: 43px;
 }

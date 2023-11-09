@@ -1,12 +1,10 @@
 
     <!-- header -->
     <div class="header-outs inner_page-banner" id="home">
-    <div class="headder-top d-md-flex">
+    <div class="headder-top d-md-flex align-items-center">
       <div id="logo">
-        <h1>
-          <a routerLink="/home">Rami hair & beauty</a>
-        </h1>
-      </div>
+        <a routerLink="/home"><img class="logo" src="./assets/images/logo.jpg" alt=""></a>
+    </div>
       <!-- nav -->
       <nav class="mx-md-auto">
 
@@ -33,15 +31,13 @@
           </li>
           <li routerLinkActive="active">
             <a routerLink="/contact">{{ "Contact" | translate }}</a>
-          </li>
-          <li>
-            <div class="language-switcher">
-              <img src="assets/images/uk_flag.svg" alt="English" (click)="switchLanguage('en')" class="flag-icon">
-              <img src="assets/images/ro_flag.svg" alt="Romanian" (click)="switchLanguage('ro')" class="flag-icon">
-            </div>
-          </li>
+          </li>          
         </ul>
       </nav>
+      <div class="language-switcher">
+        <img src="assets/images/uk_flag.svg" alt="English" (click)="switchLanguage('en')" class="flag-icon">
+        <img src="assets/images/ro_flag.svg" alt="Romanian" (click)="switchLanguage('ro')" class="flag-icon">
+      </div>
     </div>
   </div>
  

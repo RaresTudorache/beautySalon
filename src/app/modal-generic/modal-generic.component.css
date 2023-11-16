@@ -1,0 +1,22 @@
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background: rgba(0 , 0 ,0 ,0.5);
+    transform: translate(-50%, -50%);
+}
+
+.modal-close-button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border:1px solid gray;
+}

@@ -16,7 +16,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ProductsComponent } from './products/products.component';
-import { ServiciiComponent } from './servicii/servicii.component';
+import { ModalGenericComponent } from './modal-generic/modal-generic.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http,'./assets/i18n/', '.json');
@@ -35,7 +35,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     FooterComponent,
     HomeComponent,
     ProductsComponent,
-    ServiciiComponent
+    ModalGenericComponent
   ],
   imports: [
     BrowserModule,

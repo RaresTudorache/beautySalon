@@ -1,105 +1,139 @@
 <app-navbar></app-navbar>
   <!-- service -->
-  <section class="service py-lg-4 py-md-3 py-sm-3 py-3">
-    <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
-      <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">
-        <div class="title col-lg-4 col-md-4 text-center">
-          <h3 class="clr">{{ "OurServices" | translate }}</h3>
-        </div>
-        <div class="line-grided-title col-lg-8 col-md-8 ">
-          <p>{{"OurServices-about" | translate}} </p>
-        </div>
+<!--  <section class="service py-lg-4 py-md-3 py-sm-3 py-3">-->
+<!--    <div class="container py-lg-5 py-md-5 py-sm-4 py-3">-->
+<!--      <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">-->
+<!--        <div class="title col-lg-4 col-md-4 text-center">-->
+<!--          <h3 class="clr">{{ "OurServices" | translate }}</h3>-->
+<!--        </div>-->
+<!--        <div class="line-grided-title col-lg-8 col-md-8 ">-->
+<!--          <p>{{"OurServices-about" | translate}} </p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="row">-->
+<!--        <div class="col-lg-4 jst-img-grided">-->
+<!--          <div class="service-grid-tree mt-lg-5 mt-md-4 my-3">-->
+<!--            <h4>{{"HairExtensions" | translate}}</h4>-->
+<!--            <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">-->
+<!--              <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">-->
+<!--                <span class="fa fa-magic mt-2" aria-hidden="true"></span>-->
+<!--              </div>-->
+<!--              <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">-->
+<!--                <p>{{"HairExtensions-about" | translate}} </p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">-->
+<!--            <h4>{{"HairColoring" | translate}}</h4>-->
+<!--            <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">-->
+<!--              <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">-->
+<!--                <span class="fa fa-paint-brush mt-2" aria-hidden="true"></span>-->
+<!--              </div>-->
+<!--              <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">-->
+<!--                <p>{{"HairColoring-about" | translate}} </p>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">-->
+<!--            <h4>{{"Highlights" | translate}}</h4>-->
+<!--            <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">-->
+<!--              <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">-->
+<!--                <span class="fa fa-tachometer mt-2" aria-hidden="true"></span>-->
+<!--              </div>-->
+<!--              <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">-->
+<!--                <p>{{"Highlights-about" | translate}}</p>-->
+<!--              </div>-->
+<!--  -->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="col-lg-4 jst-img-grided">-->
+<!--          <div class="service-image">-->
+<!--              <img src="assets/images/services.jpeg" alt="news image" class="img-fluid service-pic">-->
+<!--          </div>-->
+<!--          <div class="service-image">-->
+<!--              <img src="assets/images/services2.jpeg" alt="news image" class="img-fluid service-pic">-->
+<!--          </div>-->
+<!--      </div>-->
+<!--    -->
+<!--        <div class="col-lg-4 text-lg-right jst-img-grided">-->
+<!--          <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">-->
+<!--            <h4>{{"HairColoring" | translate}}</h4>-->
+<!--            <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">-->
+<!--  -->
+<!--              <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">-->
+<!--                <p>{{"HairColoring-about" | translate}}</p>-->
+<!--              </div>-->
+<!--              <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">-->
+<!--                <span class="fa fa-paint-brush mt-2" aria-hidden="true"></span>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">-->
+<!--  -->
+<!--            <h4>{{"Highlights" | translate}}</h4>-->
+<!--            <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">-->
+<!--  -->
+<!--              <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">-->
+<!--                <p>{{"Highlights-about" | translate}}</p>-->
+<!--              </div>-->
+<!--              <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">-->
+<!--                <span class="fa fa-tachometer mt-2" aria-hidden="true"></span>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="service-grid-tree mt-lg-5 mt-md-4 my-3">-->
+<!--  -->
+<!--            <h4>{{"HairExtensions" | translate}}</h4>-->
+<!--            <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">-->
+<!--  -->
+<!--              <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">-->
+<!--                <p>{{"HairExtensions-about" | translate}}</p>-->
+<!--              </div>-->
+<!--              <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">-->
+<!--                <span class="fa fa-magic mt-2" aria-hidden="true"></span>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
+<section class="d-flex justify-content-center">
+  <div class="services-container w-100 d-flex flex-lg-column">
+    <div class="row">
+      <div class="service col-6">
+        <img src="./assets/images/blog1.jpg" alt="Coafor">
+        <h2>Coafor</h2>
+        <button (click)="openModal()">Lista preturi</button>
       </div>
-      <div class="row">
-        <div class="col-lg-4 jst-img-grided">
-          <div class="service-grid-tree mt-lg-5 mt-md-4 my-3">
-            <h4>{{"HairExtensions" | translate}}</h4>
-            <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
-              <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
-                <span class="fa fa-magic mt-2" aria-hidden="true"></span>
-              </div>
-              <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-                <p>{{"HairExtensions-about" | translate}} </p>
-              </div>
-            </div>
-          </div>
-          <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
-            <h4>{{"HairColoring" | translate}}</h4>
-            <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
-              <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
-                <span class="fa fa-paint-brush mt-2" aria-hidden="true"></span>
-              </div>
-              <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-                <p>{{"HairColoring-about" | translate}} </p>
-              </div>
-            </div>
-          </div>
-          <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
-            <h4>{{"Highlights" | translate}}</h4>
-            <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
-              <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
-                <span class="fa fa-tachometer mt-2" aria-hidden="true"></span>
-              </div>
-              <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-                <p>{{"Highlights-about" | translate}}</p>
-              </div>
-  
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 jst-img-grided">
-          <div class="service-image">
-              <img src="assets/images/services.jpeg" alt="news image" class="img-fluid service-pic">
-          </div>
-          <div class="service-image">
-              <img src="assets/images/services2.jpeg" alt="news image" class="img-fluid service-pic">
-          </div>
-      </div>
-    
-        <div class="col-lg-4 text-lg-right jst-img-grided">
-          <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
-            <h4>{{"HairColoring" | translate}}</h4>
-            <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
-  
-              <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-                <p>{{"HairColoring-about" | translate}}</p>
-              </div>
-              <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
-                <span class="fa fa-paint-brush mt-2" aria-hidden="true"></span>
-              </div>
-            </div>
-          </div>
-          <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
-  
-            <h4>{{"Highlights" | translate}}</h4>
-            <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
-  
-              <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-                <p>{{"Highlights-about" | translate}}</p>
-              </div>
-              <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
-                <span class="fa fa-tachometer mt-2" aria-hidden="true"></span>
-              </div>
-            </div>
-          </div>
-          <div class="service-grid-tree mt-lg-5 mt-md-4 my-3">
-  
-            <h4>{{"HairExtensions" | translate}}</h4>
-            <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
-  
-              <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-                <p>{{"HairExtensions-about" | translate}}</p>
-              </div>
-              <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
-                <span class="fa fa-magic mt-2" aria-hidden="true"></span>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="service col-6">
+        <img src="./assets/images/blog1.jpg" alt="Frizerie">
+        <h2>Frizerie</h2>
+        <button (click)="openModal()">Lista preturi</button>
       </div>
     </div>
-  </section>
+    <div class="row">
+      <div class="service col-4">
+        <img src="./assets/images/blog1.jpg" alt="Machiaj">
+        <h2>Machiaj</h2>
+        <button (click)="openModal()">Lista preturi</button>
+      </div>
+      <div class="service col-4">
+        <img src="./assets/images/blog1.jpg" alt="Unghii">
+        <h2>Unghii</h2>
+        <button (click)="openModal()">Lista preturi</button>
+      </div>
+      <div class="service col-4">
+        <img src="./assets/images/blog1.jpg" alt="Gene">
+        <h2>Gene</h2>
+        <button (click)="openModal()">Lista preturi</button>
+    </div>
 
+    </div>
+  </div>
+
+</section>
   <!-- //service -->
     <!-- price -->
     <section class="price py-lg-4 py-md-3 py-sm-3 py-3">

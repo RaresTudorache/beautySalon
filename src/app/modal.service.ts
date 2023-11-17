@@ -6,10 +6,11 @@ import {BehaviorSubject} from "rxjs";
 })
 export class ModalService {
   public isOpen$ : BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
+  public modalParameter$ : BehaviorSubject<string> = new BehaviorSubject<string>('')
 
-
-  public openModal(): void{
+  public openModal(modalParameter:string): void{
     this.isOpen$.next(true);
+    this.modalParameter$.next(modalParameter);
   }
 
   public resetModal(): void{

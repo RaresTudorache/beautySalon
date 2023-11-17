@@ -11,8 +11,8 @@ export class ServiceComponent {
   constructor(public modalService:ModalService) {
   }
 
-  public openModal(): void{
-    this.modalService.openModal();
+  public openModal(modalParameter:string): void{
+    this.modalService.openModal(modalParameter);
   }
 
 }

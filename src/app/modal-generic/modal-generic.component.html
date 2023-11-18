@@ -1,6 +1,6 @@
 <ng-container *ngIf="isOpen">
     <div class="modal-container">
-        <div class="col-lg-4 col-md-4 text-center pricing-grid my-3">
+        <div class="col-lg-4 col-md-4 text-center pricing-grid my-3 modal-content">
             <div class=" grided-bottom">
                 <ng-container *ngFor="let content of modalContent">
                     <h4 class="mb-lg-4 mb-md-3 mb-3">{{content.title}}</h4>
@@ -12,18 +12,9 @@
                         </ul>
                     </div>
                 </ng-container>
-
-                <div class="buttons d-flex justify-content-between">
-                    <div class="blog-buttn mt-md-4 mt-3">
-                        <a href="contact.html">Book Here</a>
-
-                    </div>
-                    <div class="modal-close-button mt-md-4 mt-3">
-                        <span (click)="resetModal()">Close Modal</span>
-
-                    </div>
+                    <div class="modal-close-button mt-md-4 mt-3 col-12">
+                        <span (click)="resetModal()">Close</span>
                 </div>
-
             </div>
         </div>
     </div>

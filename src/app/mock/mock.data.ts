@@ -7,35 +7,35 @@ export const coafat = [
                 price: '25 lei'
             },
             {
-                serviceName: 'coafat perie par scurt',
+                serviceName: 'perie par scurt',
                 price: '100 lei'
             },
             {
-                serviceName: 'coafat perie par mediu',
+                serviceName: 'perie par mediu',
                 price: '120 lei'
             },
             {
-                serviceName: 'coafat perie par lung',
+                serviceName: 'perie par lung',
                 price: '150 lei'
             },
             {
-                serviceName: 'coafat bucle',
+                serviceName: 'bucle',
                 price: '150 lei'
             },
             {
-                serviceName: 'coafat cu extensii',
+                serviceName: 'cu extensii',
                 price: '150 lei'
             },
             {
-                serviceName: 'coafat cu extentii bucle',
+                serviceName: 'cu extentii bucle',
                 price: '180 lei'
             },
             {
-                serviceName: 'coafat cu extensii CLIP ON',
+                serviceName: 'cu extensii CLIP ON',
                 price: '200 lei'
             },
             {
-                serviceName: 'coafat cu extensii',
+                serviceName: 'cu extensii',
                 price: '150 lei'
             },
         ]
@@ -44,11 +44,11 @@ export const coafat = [
         title: 'Tuns',
         services: [
             {
-                serviceName: 'tuns varfuri',
+                serviceName: 'varfuri',
                 price: '100 lei'
             },
             {
-                serviceName: 'tuns forma',
+                serviceName: 'forma',
                 price: '150 lei'
             },
         ]
@@ -62,8 +62,8 @@ export const pachete =[ {
             price: '250 lei'
         },
         {
-            serviceName: 'balayage (balayage + toner + spalat + coafat + tuns)',
-            price: ' 1000 - 1300lei (depinde de cantitatea produselor)'
+            serviceName: 'balayage',
+            price: ' 1000 - 1300lei'
         },
     ]
 }]
@@ -72,7 +72,7 @@ export const specials = [{
     services: [
         {
             serviceName: 'coafat special',
-            price: '250/350/450 (in functie de complexitate)'
+            price: '250/350/450 lei'
         },
 
     ]
@@ -81,15 +81,15 @@ export const tratamente = [{
     title: 'Tratamente',
     services: [
         {
-            serviceName: 'tratament ARKITECT',
+            serviceName: 'ARKITECT',
             price: '5ml - 40 lei'
         },
         {
-            serviceName: 'protectie scalp',
+            serviceName: 'scalp',
             price: '25 lei'
         },
         {
-            serviceName: 'tratament dupa decolorare',
+            serviceName: 'dupa decolorare',
             price: '50 lei'
         },
         {
@@ -106,19 +106,19 @@ export const vopsit = [{
     title: 'Vopsit',
     services: [
         {
-            serviceName: 'vopsit radacina',
+            serviceName: 'radacina',
             price: '120 lei'
         },
         {
-            serviceName: 'vopsit lungime',
+            serviceName: 'lungime',
             price: '150 lei'
         },
         {
-            serviceName: 'suvite par lung',
+            serviceName: 'par lung',
             price: '500 lei'
         },
         {
-            serviceName: 'suvite par scurt',
+            serviceName: 'par scurt',
             price: '400 lei'
         },
         {

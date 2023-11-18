@@ -17,6 +17,11 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow to the cards */
     transition: transform 0.3s ease-in-out; /* Optional: Adds a transition effect on hover */
      position: relative; /* Needed for absolute positioning of the gradient */
+
+}
+
+.service-button{
+    border-radius: 8px;
 }
 
 .row{

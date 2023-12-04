@@ -1,283 +1,293 @@
 <div class="headder-top d-md-flex align-items-center">
-  <div id="logo">
-      <a routerLink="/home"><img class="logo" src="./assets/images/logo.jpg" alt=""></a>
-  </div>
-  <!-- nav -->
-  <nav class="mx-md-auto">
+    <div id="logo">
+        <a routerLink="/home"><img class="logo" src="./assets/images/logo.png" alt=""></a>
+    </div>
+    <!-- nav -->
+    <nav class="mx-md-auto">
 
-    <label for="drop" class="toggle">Menu</label>
-    <input type="checkbox" id="drop">
-    <ul class="menu mt-2">
-      <li routerLinkActive="active">
-        <a routerLink="/home">{{ "Home" | translate }}</a>
-      </li>
-      <li routerLinkActive="active">
-        <a routerLink="/about">{{ "About" | translate }}</a>
-      </li>
-      <li routerLinkActive="active">
-        <a routerLink="/service">{{ "Services" | translate }}</a>
-      </li>
-      <li routerLinkActive="active">
-        <a routerLink="/products">{{ "Products" | translate }}</a>
-      </li>
-      <li routerLinkActive="active">
-        <a routerLink="/gallery" class="drop-text">{{ "Gallery" | translate }}</a>
-      </li>
-      <li routerLinkActive="active">
-        <a routerLink="/blog" class="drop-text">{{ "Blog" | translate }}</a>
-      </li>
-      <li routerLinkActive="active">
-        <a routerLink="/contact">{{ "Contact" | translate }}</a>
-      </li>
-    </ul>
+        <label for="drop" class="toggle">Menu</label>
+        <input type="checkbox" id="drop">
+        <ul class="menu mt-2">
+            <li routerLinkActive="active">
+                <a routerLink="/home">{{ "Home" | translate }}</a>
+            </li>
+            <li routerLinkActive="active">
+                <a routerLink="/about">{{ "About" | translate }}</a>
+            </li>
+            <li routerLinkActive="active">
+                <a routerLink="/service">{{ "Services" | translate }}</a>
+            </li>
+            <li routerLinkActive="active">
+                <a routerLink="/contact">{{ "Contact" | translate }}</a>
+            </li>
+        </ul>
 
-  </nav>
-  <div class="language-switcher">
-    <img src="assets/images/uk_flag.svg" alt="English" (click)="switchLanguage('en')" class="flag-icon">
-    <img src="assets/images/ro_flag.svg" alt="Romanian" (click)="switchLanguage('ro')" class="flag-icon">
-  </div>
-  <!-- //nav -->
+    </nav>
+    <div class="language-switcher">
+        <img src="assets/images/uk_flag.svg" alt="English" (click)="switchLanguage('en')" class="flag-icon">
+        <img src="assets/images/ro_flag.svg" alt="Romanian" (click)="switchLanguage('ro')" class="flag-icon">
+    </div>
+    <!-- //nav -->
 </div>
 <div class="main-top" id="home">
-  <!-- banner -->
-  <div class="main-banner">
-    <div class="container container-main-banner">
-      <div class="style-banner ">
-        <h4 class="mb-2">Elegance</h4>
-        <h4 class="mb-2">in every</h4>
-        <h4 class="mb-2">cut</h4>
-        <h5 class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">Where Your Hair Tells the Story</h5>
-      </div>
+    <!-- banner -->
+    <div class="main-banner">
+        <div class="container container-main-banner">
+            <div class="style-banner ">
+                <h4 class="mb-2">Elegance</h4>
+                <h4 class="mb-2">in every</h4>
+                <h4 class="mb-2">cut</h4>
+                <h5 class="mt-lg-5 mt-md-4 mt-sm-4 mt-4">Where Your Hair Tells the Story</h5>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 <!-- //banner -->
 <section class="about py-lg-4 py-md-3 py-sm-3 py-3">
-  <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
-    <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">
-      <div class="title col-lg-4 col-md-4 text-center">
-        <h3 class="clr">{{ "About" | translate }}</h3>
-      </div>
-      <div class="line-grided-title col-lg-8 col-md-8">
-        <p> <span class="owner">{{"Aboutus-0" | translate}}</span> {{ "About us" | translate }}</p>
-      </div>
+    <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+        <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">
+            <div class="title col-lg-4 col-md-4 text-center">
+                <h3 class="clr">{{ "About" | translate }}</h3>
+            </div>
+            <div class="line-grided-title col-lg-8 col-md-8">
+                <p><span class="owner">{{"Aboutus-0" | translate}}</span> {{ "About us" | translate }}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                <div class="tool-item about-fashion-grid ">
+                    <div class="about-icon ">
+                        <span class="fa fa-scissors" aria-hidden="true"></span>
+                    </div>
+                    <div class="about-tree-grid mb-3 mt-lg-4 mt-3">
+                        <h4>{{ "Haircut" | translate }}</h4>
+                    </div>
+                    <p>{{ "Haircut-about" | translate }}</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 my-3">
+                <div class="tool-item about-fashion-grid ">
+                    <div class="about-icon ">
+                        <span class="fa fa-paint-brush" aria-hidden="true"></span>
+                    </div>
+                    <div class="about-tree-grid mb-3 mt-lg-4 mt-3">
+                        <h4>{{ "Haircolor" | translate }}</h4>
+                    </div>
+                    <p>{{ "Haircolor-about" | translate }} </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 my-3 ">
+                <div class="tool-item about-fashion-grid ">
+                    <div class="about-icon ">
+                        <span class="fa fa-fire-extinguisher" aria-hidden="true"></span>
+                    </div>
+                    <div class="about-tree-grid mb-3 mt-lg-4 mt-3">
+                        <h4>{{ "Hairspray" | translate }}</h4>
+                    </div>
+                    <p>{{"Hairspray-about" | translate}}</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 my-3 ">
+                <div class="tool-item about-fashion-grid ">
+                    <div class="about-icon ">
+                        <span class="fa fa-shower" aria-hidden="true"></span>
+                    </div>
+                    <div class="about-tree-grid mb-3 mt-lg-4 mt-3">
+                        <h4>{{ "Hairwash" | translate }}</h4>
+                    </div>
+                    <p>{{ "Hairwash-about" | translate }}</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-6 my-3">
-        <div class="tool-item about-fashion-grid ">
-          <div class="about-icon ">
-            <span class="fa fa-scissors" aria-hidden="true"></span>
-          </div>
-          <div class="about-tree-grid mb-3 mt-lg-4 mt-3">
-            <h4>{{ "Haircut" | translate }}</h4>
-          </div>
-          <p>{{ "Haircut-about" | translate }}</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 my-3">
-        <div class="tool-item about-fashion-grid ">
-          <div class="about-icon ">
-            <span class="fa fa-paint-brush" aria-hidden="true"></span>
-          </div>
-          <div class="about-tree-grid mb-3 mt-lg-4 mt-3">
-            <h4>{{ "Haircolor" | translate }}</h4>
-          </div>
-          <p>{{ "Haircolor-about" | translate }} </p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 my-3 ">
-        <div class="tool-item about-fashion-grid ">
-          <div class="about-icon ">
-            <span class="fa fa-fire-extinguisher" aria-hidden="true"></span>
-          </div>
-          <div class="about-tree-grid mb-3 mt-lg-4 mt-3">
-            <h4>{{ "Hairspray" | translate }}</h4>
-          </div>
-          <p>{{"Hairspray-about" | translate}}</p>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-6 my-3 ">
-        <div class="tool-item about-fashion-grid ">
-          <div class="about-icon ">
-            <span class="fa fa-shower" aria-hidden="true"></span>
-          </div>
-          <div class="about-tree-grid mb-3 mt-lg-4 mt-3">
-            <h4>{{ "Hairwash" | translate }}</h4>
-          </div>
-          <p>{{ "Hairwash-about" | translate }}</p>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 <!--//about -->
 <!-- service -->
 <section class="service py-lg-4 py-md-3 py-sm-3 py-3">
-  <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
-    <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">
-      <div class="title col-lg-4 col-md-4 text-center">
-        <h3 class="clr">{{ "OurServices" | translate }}</h3>
-      </div>
-      <div class="line-grided-title col-lg-8 col-md-8 ">
-        <p>{{"OurServices-about" | translate}} </p>
-      </div>
+    <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+        <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">
+            <div class="title col-lg-4 col-md-4 text-center">
+                <h3 class="clr">{{ "OurServices" | translate }}</h3>
+            </div>
+            <div class="line-grided-title col-lg-8 col-md-8 ">
+                <p>{{"OurServices-about" | translate}} </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 jst-img-grided">
+                <div class="service-grid-tree mt-lg-5 mt-md-4 my-3">
+                    <h4>Coafat</h4>
+                    <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+                        <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
+                            <span class="fa fa-magic mt-2" aria-hidden="true"></span>
+                        </div>
+                        <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
+                            <p>Experimentează magia transformării prin serviciul nostru de coafat, unde fiecare șuviță
+                                prinde viață și fiecare buclă spune o poveste. Echipa noastră de stilisti talentați este
+                                aici pentru a crea coafuri personalizate, de la cele mai elegante și sofisticate până la
+                                cele mai lejere și naturale. Descoperă un spațiu unde frumusețea părului tău prinde
+                                aripi!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
+                    <h4>Pachete</h4>
+                    <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+                        <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
+                            <span class="fa fa-paint-brush mt-2" aria-hidden="true"></span>
+                        </div>
+                        <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
+                            <p>O experiență completă de îngrijire pentru păr te așteaptă în pachetele noastre
+                                personalizate. De la un șampon revitalizant la o coafură desăvârșită și un tuns care îți
+                                pune în valoare frumusețea naturală, vei pleca din salon cu o încredere nouă și un
+                                zâmbet strălucitor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
+                    <h4>Extensii</h4>
+                    <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+                        <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
+                            <span class="fa fa-tachometer mt-2" aria-hidden="true"></span>
+                        </div>
+                        <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
+                            <p>Descoperă secretul părului lung și voluminos cu extensiile noastre de calitate
+                                superioară. Tape On sau Nono Ring, indiferent de preferința ta, vei experimenta o
+                                transformare instantanee a look-ului tău. Părul de vis este acum la îndemâna ta, iar noi
+                                suntem aici să îl aducem în viață.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 jst-img-grided">
+                <div class="service-image">
+                    <img src="assets/images/services.jpeg" alt="news image" class="img-fluid service-pic">
+                </div>
+                <div class="service-image">
+                    <img src="assets/images/services2.jpeg" alt="news image" class="img-fluid service-pic">
+                </div>
+            </div>
+            <div class="col-lg-4 text-lg-right jst-img-grided">
+                <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
+                    <h4>Specials</h4>
+                    <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+
+                        <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
+                            <p>În ziua cea mare, vrem să te ajutăm să strălucești ca o adevărată regină. Cu pachete
+                                speciale pentru nuntă, echipa noastră dedicată se asigură că fiecare detaliu al coafurii
+                                tale este impecabil. De la cocuri elegante la bucle romantice, noi transformăm visul tău
+                                în realitate.</p>
+                        </div>
+                        <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
+                            <span class="fa fa-paint-brush mt-2" aria-hidden="true"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
+
+                    <h4>Tratamente</h4>
+                    <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+
+                        <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
+                            <p>Iubește-ți părul cu tratamentele noastre premium. De la măștile de hidratare L'Oréal la
+                                tratamentele revitalizante Arkitect și îngrijirea delicată a scalpului, oferim un ritual
+                                de frumusețe complet pentru părul tău. Ia-ți o pauză și oferă-i părului tău răsfățul pe
+                                care îl merită.</p>
+                        </div>
+                        <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
+                            <span class="fa fa-tachometer mt-2" aria-hidden="true"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-grid-tree mt-lg-5 mt-md-4 my-3">
+
+                    <h4>Vopsit</h4>
+                    <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
+
+                        <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
+                            <p>Culoarea devine artă în mâinile noastre pricepute. Cu o gamă variată de culori și tehnici
+                                de vopsire, suntem aici pentru a-ți transforma părul într-o operă de artă. De la nuanțe
+                                naturale la culori îndrăznețe, echipa noastră de coloriști aduce la viață orice vis
+                                cromatic.</p>
+                        </div>
+                        <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
+                            <span class="fa fa-magic mt-2" aria-hidden="true"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-lg-4 jst-img-grided">
-        <div class="service-grid-tree mt-lg-5 mt-md-4 my-3">
-          <h4>{{"HairExtensions" | translate}}</h4>
-          <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
-            <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
-              <span class="fa fa-magic mt-2" aria-hidden="true"></span>
-            </div>
-            <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-              <p>{{"HairExtensions-about" | translate}} </p>
-            </div>
-          </div>
-        </div>
-        <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
-          <h4>{{"HairColoring" | translate}}</h4>
-          <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
-            <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
-              <span class="fa fa-paint-brush mt-2" aria-hidden="true"></span>
-            </div>
-            <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-              <p>{{"HairColoring-about" | translate}} </p>
-            </div>
-          </div>
-        </div>
-        <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
-          <h4>{{"Highlights" | translate}}</h4>
-          <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
-            <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
-              <span class="fa fa-tachometer mt-2" aria-hidden="true"></span>
-            </div>
-            <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-              <p>{{"Highlights-about" | translate}}</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 jst-img-grided">
-        <div class="service-image">
-            <img src="assets/images/services.jpeg" alt="news image" class="img-fluid service-pic">
-        </div>
-        <div class="service-image">
-            <img src="assets/images/services2.jpeg" alt="news image" class="img-fluid service-pic">
-        </div>
-    </div>
-      <div class="col-lg-4 text-lg-right jst-img-grided">
-        <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
-          <h4>{{"HairColoring" | translate}}</h4>
-          <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
-
-            <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-              <p>{{"HairColoring-about" | translate}}</p>
-            </div>
-            <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
-              <span class="fa fa-paint-brush mt-2" aria-hidden="true"></span>
-            </div>
-          </div>
-        </div>
-        <div class=" service-grid-tree mt-lg-5 mt-md-4 my-3">
-
-          <h4>{{"Highlights" | translate}}</h4>
-          <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
-
-            <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-              <p>{{"Highlights-about" | translate}}</p>
-            </div>
-            <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
-              <span class="fa fa-tachometer mt-2" aria-hidden="true"></span>
-            </div>
-          </div>
-        </div>
-        <div class="service-grid-tree mt-lg-5 mt-md-4 my-3">
-
-          <h4>{{"HairExtensions" | translate}}</h4>
-          <div class="row mt-lg-4 mt-md-4 mt-sm-3 mt-2">
-
-            <div class="ser-sevice-grid col-lg-9 col-md-9 col-sm-8">
-              <p>{{"HairExtensions-about" | translate}}</p>
-            </div>
-            <div class="about-icon col-lg-3 col-md-3 col-sm-4 text-center">
-              <span class="fa fa-magic mt-2" aria-hidden="true"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 <!-- //service -->
 <!-- blog -->
 <section class="blog py-lg-4 py-md-3 py-sm-3 py-3">
-  <div class="container pt-lg-5 pt-md-5 pt-sm-4 pt-3">
-    <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">
-      <div class="title col-lg-4 col-md-4  text-center">
-        <h3 class="clr">Specials</h3>
-      </div>
-      <div class="line-grided-title col-lg-8 col-md-8 ">
-        <p>{{"Specials-about" | translate}}</p>
-      </div>
+    <div class="container pt-lg-5 pt-md-5 pt-sm-4 pt-3">
+        <div class="row mb-lg-5 mb-md-4 mb-sm-4 mb-3">
+            <div class="title col-lg-4 col-md-4  text-center">
+                <h3 class="clr">Specials</h3>
+            </div>
+            <div class="line-grided-title col-lg-8 col-md-8 ">
+                <p>{{"Specials-about" | translate}}</p>
+            </div>
+        </div>
+        <div class="blog-layts-position position-relative">
+            <img src="assets/images/wed.jpg" alt="news image" class="img-fluid">
+            <div class="blog-some-txt">
+                <div class="color-number mb-lg-4 mb-3">
+                    <h5>1</h5>
+                </div>
+                <div class="blog-left-tree ">
+                    <h4 class="pb-3">
+                        <a href="single.html">{{"WeddingHairStyle" | translate}}</a>
+                    </h4>
+                    <p>{{"WeddingHairStyle-about" | translate}}
+                    </p>
+                </div>
+                <div class="blog-buttn mt-md-4 mt-3">
+                    <a href="single.html">Read More</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="blog-layts-position position-relative">
-      <img src="assets/images/wed.jpg" alt="news image" class="img-fluid">
-      <div class="blog-some-txt">
-        <div class="color-number mb-lg-4 mb-3">
-          <h5>1</h5>
-        </div>
-        <div class="blog-left-tree ">
-          <h4 class="pb-3">
-            <a href="single.html">{{"WeddingHairStyle" | translate}}</a>
-          </h4>
-          <p>{{"WeddingHairStyle-about" | translate}}
-          </p>
-        </div>
-        <div class="blog-buttn mt-md-4 mt-3">
-          <a href="single.html">Read More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="blog-mid-position position-relative">
+    <div class="blog-mid-position position-relative">
 
-    <div class="blog-mid-txt">
-      <div class="color-number mb-lg-4 mb-3">
-        <h5>2</h5>
-      </div>
-      <div class="blog-left-tree ">
-        <h4 class="pb-3">
-          <a href="single.html">{{"AwsomeLooks" | translate}}</a>
-        </h4>
-        <p>{{"AwesomeLooks-about"| translate}}
-        </p>
-      </div>
-      <div class="blog-buttn mt-md-4 mt-3">
-        <a href="single.html">Read More</a>
-      </div>
+        <div class="blog-mid-txt">
+            <div class="color-number mb-lg-4 mb-3">
+                <h5>2</h5>
+            </div>
+            <div class="blog-left-tree ">
+                <h4 class="pb-3">
+                    <a href="single.html">{{"AwsomeLooks" | translate}}</a>
+                </h4>
+                <p>{{"AwesomeLooks-about"| translate}}
+                </p>
+            </div>
+            <div class="blog-buttn mt-md-4 mt-3">
+                <a href="single.html">Read More</a>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="blog-layts-position position-relative">
-      <img src="assets/images/nails.jpg" alt="news image" class="img-fluid">
-      <div class="blog-some-txt">
-        <div class="color-number mb-lg-4 mb-3">
-          <h5>3</h5>
+    <div class="container">
+        <div class="blog-layts-position position-relative">
+            <img src="assets/images/nails.jpg" alt="news image" class="img-fluid">
+            <div class="blog-some-txt">
+                <div class="color-number mb-lg-4 mb-3">
+                    <h5>3</h5>
+                </div>
+                <div class="blog-left-tree ">
+                    <h4 class="pb-3">
+                        <a href="single.html">{{"Nails" | translate}}</a>
+                    </h4>
+                    <p>{{"Nails-about" | translate}}
+                    </p>
+                </div>
+                <div class="blog-buttn mt-md-4 mt-3">
+                    <a href="single.html">Read More</a>
+                </div>
+            </div>
         </div>
-        <div class="blog-left-tree ">
-          <h4 class="pb-3">
-            <a href="single.html">{{"Nails" | translate}}</a>
-          </h4>
-          <p>{{"Nails-about" | translate}}
-          </p>
-        </div>
-        <div class="blog-buttn mt-md-4 mt-3">
-          <a href="single.html">Read More</a>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
 <!--//blog -->

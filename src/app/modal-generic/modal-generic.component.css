@@ -27,11 +27,19 @@
     border-radius: 8px;
 }
 
-.grided-bottom::-webkit-scrollbar {
+.modal-content .content{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 16px;
+    max-height: 400px;
+}
+
+.content::-webkit-scrollbar {
      width: 8px !important;
  }
 
-.grided-bottom::-webkit-scrollbar-thumb {
+.content::-webkit-scrollbar-thumb {
     background-color: #d3d3d3 !important;
     border-radius: 4px !important;
 }

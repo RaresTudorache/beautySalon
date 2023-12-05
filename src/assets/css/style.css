@@ -313,8 +313,13 @@ nav ul ul li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to elevate the image */
 }
 
+.service-image:hover {
+    border-radius: 10px;
+}
+
 .img-fluid.service-pic {
     transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    border-radius: 10px;
 }
 
 .service-image:hover .img-fluid.service-pic {
@@ -755,6 +760,15 @@ ul.short_ls li {
     height: 400px;
     overflow: auto;
 
+}
+
+.text-layts-grids::-webkit-scrollbar {
+    width: 8px !important;
+}
+
+.text-layts-grids::-webkit-scrollbar-thumb {
+    background-color: #d3d3d3 !important;
+    border-radius: 4px !important;
 }
 
 .language-switcher {

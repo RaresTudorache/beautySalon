@@ -759,7 +759,10 @@ ul.short_ls li {
     /* Set the width and height */
     height: 400px;
     overflow: auto;
+}
 
+.text-layts-grids{
+    border-radius: 10px;
 }
 
 .text-layts-grids::-webkit-scrollbar {

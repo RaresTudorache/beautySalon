@@ -1,3 +1,5 @@
+
+
 export const coafat = [
     {
         title: 'Coafat',
@@ -34,10 +36,6 @@ export const coafat = [
                 serviceName: 'cu extensii CLIP ON',
                 price: '200 lei'
             },
-            {
-                serviceName: 'cu extensii',
-                price: '150 lei'
-            },
         ]
     },
     {
@@ -71,7 +69,7 @@ export const specials = [{
     title: 'Specials',
     services: [
         {
-            serviceName: 'coafat special',
+            serviceName: 'Specials-Hairdressing',
             price: '250/350/450 lei'
         },
 

@@ -6,7 +6,7 @@
                     <h4 class="mb-lg-4 mb-md-3 mb-3">{{content.title}}</h4>
                     <div class="wls-hours-list">
                         <ul>
-                            <li *ngFor="let service of content.services" class="d-flex">{{service.serviceName}}
+                            <li *ngFor="let service of content.services" class="d-flex">{{service.serviceName | translate}}
                                 <span class="time ml-auto">{{service.price}}</span>
                             </li>
                         </ul>

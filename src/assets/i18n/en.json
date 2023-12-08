@@ -1,6 +1,13 @@
 {
     "Home": "Home",
     "About": "About Rami",
+    "About-simple": "About",
+    "Rami-description": {
+        "First-paragraph": "Born in vibrant Beirut, Lebanon, Rami embraced the call of style and beauty from a young age. At just 13 years old, he entered the fascinating world of hairdressing as an apprentice in a beauty salon. It was an instant revelation, a certainty that this was his way - to bring sparkle to the eyes of those who crossed his threshold. Curiosity carved his way into passion, quickly transforming him into a refined esthete and artist of color, always in search of perfection and evolution in the noble art of hairdressing.",
+        "Second-paragraph": "The year 2020 marked a new beginning, when Rami chose Romania as his new home. It was a challenge to start from scratch, to make a name for yourself without any help in a new country. His passion for beauty and especially for the art of color was the key to success. Day after day, his diligence and talent were recognized and celebrated by clients whose beauty was revealed through his hands.",
+        "Third-paragraph": "His brilliant dream came to life in 2022 when, with pride and joy, Rami opened his own salon. Here, every strand of hair is transformed into a statement of beauty, and every client becomes a living testimony of his art.",
+        "Fourth-paragraph": "We invite you to discover the place where passion meets craftsmanship and where every creation is a celebration of authentic beauty - Rami Salon, an oasis of inspiration and style in Romania."
+    },
     "Services": "Services",
     "Products": "Products",
     "Gallery": "Gallery",
@@ -30,6 +37,33 @@
     "AwsomeLooks": "Awesome Hair Looks",
     "AwesomeLooks-about": "Discover the transformative power of a fresh hairstyle. Whether you're craving a trendy change or a classic cut, our stylists are adept at sculpting the perfect look that enhances your features and reflects your personality.",
     "Nails":"Luxe Nail Elegance",
-    "Nails-about":"Experience the epitome of hand care with our Luxe Nail Elegance service. From expertly sculpted acrylics to the softest gel finishes, every detail is meticulously crafted for beauty and durability. Step into a world where your nails speak volumes about your personal style."
+    "Nails-about":"Experience the epitome of hand care with our Luxe Nail Elegance service. From expertly sculpted acrylics to the softest gel finishes, every detail is meticulously crafted for beauty and durability. Step into a world where your nails speak volumes about your personal style.",
+    "Services-list": {
+        "Hairdressing": {
+            "Title": "Hairdressing",
+            "Description": "Experience the magic of transformation through our styling service, where every strand comes to life and every curl tells a story. Our team of talented stylists are here to create custom hairstyles, from the most elegant and sophisticated to the most casual and natural. Discover a space where the beauty of your hair takes wings!"
+        },
+        "Specials": {
+            "Title": "Specials",
+            "Description": "On your big day, we want to help you shine like a true queen. With special wedding packages, our dedicated team ensures that every detail of your hairstyle is flawless. From elegant buns to romantic curls, we make your dream come true."
+        },
+        "Packets": {
+            "Title": "Packets",
+            "Description": "A complete hair care experience awaits you in our customized packages. From a revitalizing shampoo to a perfect hairstyle and haircut that brings out your natural beauty, you'll leave the salon with renewed confidence and a bright smile."
+        },
+        "Treatments": {
+            "Title": "Treatments",
+            "Description": "Love your hair with our premium treatments. From L'Oréal hydrating masks to Arkitect revitalizing treatments and delicate scalp care, we offer a complete beauty ritual for your hair. Take a break and give your hair the pampering it deserves."
+        },
+        "Extensions": {
+            "Title": "Extensions",
+            "Description": "Discover the secret to long, voluminous hair with our premium quality hair extensions. Tape On or Nono Ring, whatever your preference, you will experience an instant transformation of your look. Dream hair is now within your reach, and we're here to bring it to life."
+        },
+        "Dyed": {
+            "Title": "Dyed",
+            "Description": "Color becomes art in our skilled hands. With a wide range of colors and dyeing techniques, we are here to transform your hair into a work of art. From natural shades to bold colors, our team of colorists bring any color dream to life."
+        }
+    },
+    "Specials-Hairdressing": "Special hairdressing"
   }
   

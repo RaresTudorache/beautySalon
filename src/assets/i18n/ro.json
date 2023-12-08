@@ -1,6 +1,13 @@
 {
     "Home": "Acasa",
-    "About": "Despre noi",
+    "About": "Despre Rami",
+    "About-simple": "Despre",
+    "Rami-description": {
+        "First-paragraph": " Născut în vibrantul Beirut, Liban, Rami a îmbrățișat chemarea stilului și frumuseții încă din tinerețe. La doar 13 ani, a pășit în lumea fascinantă a coafurii ca ucenic într-un salon de infrumusetare. A fost o revelație instantanee, o certitudine că acesta era drumul său - să aducă strălucire în ochii celor care îi trec pragul. Curiozitatea i-a sculptat calea în pasiune, transformându-l rapid într-un estet rafinat și un artist al culorilor, mereu în căutarea perfecțiunii și a evoluției în nobila artă a coafurii.",
+        "Second-paragraph": "Anul 2020 a marcat un nou început, când Rami a ales România ca noua sa casă. A fost o provocare să înceapă de la zero, să-și croiască un nume fără niciun ajutor într-o țară nouă. Pasiunea sa pentru frumos și în special pentru arta coloristicii a fost cheia spre succes.  Zi după zi, sârguința și talentul său au fost recunoscute și celebrate de clienții a căror frumusețe a fost revelată prin mâinile sale.",
+        "Third-paragraph": " Visul său strălucit a prins viață în 2022, când, cu mândrie și bucurie, Rami și-a deschis propriul salon. Aici, fiecare fir de păr este transformat într-o declarație de frumusețe, iar fiecare client devine o mărturie vie a artei sale. ",
+        "Fourth-paragraph": " Vă invităm să descoperiți locul unde pasiunea întâlnește măiestria și unde fiecare creație este o celebrare a frumuseții autentice - Salonul Rami, o oază de inspirație și stil în  România. "
+    },
     "Services": "Servicii",
     "Products": "Produse",
     "Gallery": "Galerie",
@@ -30,6 +37,33 @@
     "AwsomeLooks": "Stiluri Impresionante de Par",
     "AwesomeLooks-about": "Reinventează-te cu fiecare vizită la salonul nostru. De la buclele voluminoase până la dreptul lustruit, echipa noastră de experți vă va ajuta să găsiți look-ul perfect care să vă scoată în evidență frumusețea naturală și să vă îmbunătățească încrederea în sine.",
     "Nails": "Unghii",
-    "Nails-about": "Înfrumusețați-vă mâinile cu serviciile noastre de manichiură și pedichiură. De la unghiile clasice la cele extravagante, oferim o gamă largă de opțiuni pentru a vă îmbunătăți stilul și a vă pune în evidență personalitatea."
+    "Nails-about": "Înfrumusețați-vă mâinile cu serviciile noastre de manichiură și pedichiură. De la unghiile clasice la cele extravagante, oferim o gamă largă de opțiuni pentru a vă îmbunătăți stilul și a vă pune în evidență personalitatea.",
+    "Services-list": {
+        "Hairdressing": {
+            "Title": "Coafat",
+            "Description": "Experimentează magia transformării prin serviciul nostru de coafat, unde fiecare șuviță prinde viață și fiecare buclă spune o poveste. Echipa noastră de stilisti talentați este aici pentru a crea coafuri personalizate, de la cele mai elegante și sofisticate până la cele mai lejere și naturale. Descoperă un spațiu unde frumusețea părului tău prinde aripi!"
+        },
+        "Specials": {
+            "Title": "Specials",
+            "Description": "În ziua cea mare, vrem să te ajutăm să strălucești ca o adevărată regină. Cu pachete speciale pentru nuntă, echipa noastră dedicată se asigură că fiecare detaliu al coafurii tale este impecabil. De la cocuri elegante la bucle romantice, noi transformăm visul tău în realitate."
+        },
+        "Packets": {
+            "Title": "Pachete",
+            "Description": "O experiență completă de îngrijire pentru păr te așteaptă în pachetele noastre personalizate. De la un șampon revitalizant la o coafură desăvârșită și un tuns care îți pune în valoare frumusețea naturală, vei pleca din salon cu o încredere nouă și un zâmbet strălucitor."
+        },
+        "Treatments": {
+            "Title": "Tratamente",
+            "Description": "Iubește-ți părul cu tratamentele noastre premium. De la măștile de hidratare L'Oréal la tratamentele revitalizante Arkitect și îngrijirea delicată a scalpului, oferim un ritual de frumusețe complet pentru părul tău. Ia-ți o pauză și oferă-i părului tău răsfățul pe care îl merită."
+        },
+        "Extensions": {
+            "Title": "Extensii",
+            "Description": "Descoperă secretul părului lung și voluminos cu extensiile noastre de calitate superioară. Tape On sau Nono Ring, indiferent de preferința ta, vei experimenta o transformare instantanee a look-ului tău. Părul de vis este acum la îndemâna ta, iar noi suntem aici să îl aducem în viață."
+        },
+        "Dyed": {
+            "Title": "Vopsit",
+            "Description": "Culoarea devine artă în mâinile noastre pricepute. Cu o gamă variată de culori și tehnici de vopsire, suntem aici pentru a-ți transforma părul într-o operă de artă. De la nuanțe naturale la culori îndrăznețe, echipa noastră de coloriști aduce la viață orice vis cromatic."
+        }
+    },
+    "Specials-Hairdressing": "Coafat special"
   }
   

@@ -2,66 +2,66 @@
 
 export const coafat = [
     {
-        title: 'Coafat',
+        title: 'Hairdressing',
         services: [
             {
-                serviceName: 'spalat',
-                price: '25 lei'
+                serviceName: 'Washing',
+                price: 'Washing-Price'
             },
             {
-                serviceName: 'perie par scurt',
-                price: '100 lei'
+                serviceName: 'Short-hair-brush',
+                price: 'Short-hair-brush-Price'
             },
             {
-                serviceName: 'perie par mediu',
-                price: '120 lei'
+                serviceName: 'Medium-hair-brush',
+                price: 'Medium-hair-brush-Price'
             },
             {
-                serviceName: 'perie par lung',
-                price: '150 lei'
+                serviceName: 'Long-hair-brush',
+                price: 'Long-hair-brush-Price'
             },
             {
-                serviceName: 'bucle',
-                price: '150 lei'
+                serviceName: 'Curls',
+                price: 'Curls-Price'
             },
             {
-                serviceName: 'cu extensii',
-                price: '150 lei'
+                serviceName: 'With-extension',
+                price: 'With-extension-Price'
             },
             {
-                serviceName: 'cu extentii bucle',
-                price: '180 lei'
+                serviceName: 'With-extension-curls',
+                price: 'With-extension-curls-Price'
             },
             {
-                serviceName: 'cu extensii CLIP ON',
-                price: '200 lei'
+                serviceName: 'With-CLIP-ON-extension',
+                price: 'With-CLIP-ON-extension-Price'
             },
         ]
     },
     {
-        title: 'Tuns',
+        title: 'Haircut',
         services: [
             {
-                serviceName: 'varfuri',
-                price: '100 lei'
+                serviceName: 'Tips',
+                price: 'Tips-Price'
             },
             {
-                serviceName: 'forma',
-                price: '150 lei'
+                serviceName: 'Shape',
+                price: 'Shape-Price'
             },
         ]
     }
 ]
 export const pachete =[ {
-    title: 'Pachete',
+    title: 'Packages',
     services: [
         {
-            serviceName: 'spalat + coafat + tuns',
-            price: '250 lei'
+            serviceName: 'Wash-hairdressing-haircut',
+            price: 'Wash-hairdressing-haircut-Price'
         },
         {
-            serviceName: 'balayage',
-            price: ' 1000 - 1300lei'
+            serviceName: 'Balayage',
+            price: 'Balayage-Price'
         },
     ]
 }]
@@ -70,33 +70,33 @@ export const specials = [{
     services: [
         {
             serviceName: 'Specials-Hairdressing',
-            price: '250/350/450 lei'
+            price: 'Specials-Hairdressing-Price'
         },
 
     ]
 }]
 export const tratamente = [{
-    title: 'Tratamente',
+    title: 'Treatments',
     services: [
         {
-            serviceName: 'ARKITECT',
-            price: '5ml - 40 lei'
+            serviceName: 'Arkitect',
+            price: 'Arkitect-Price'
         },
         {
-            serviceName: 'scalp',
-            price: '25 lei'
+            serviceName: 'Scalp',
+            price: 'Scalp-Price'
         },
         {
-            serviceName: 'dupa decolorare',
-            price: '50 lei'
+            serviceName: 'After-bleaching',
+            price: 'After-bleaching-Price' // 50 lei
         },
         {
-            serviceName: 'masca L’oreal cu APARAT ABUR',
-            price: '100 lei'
+            serviceName: 'L’oreal-mask-with-steam-device',
+            price: 'L’oreal-mask-with-steam-device-Price' // 100 lei
         },
         {
-            serviceName: 'masca l’oreal cu aparat abur + fiolda l’oreal pro longer',
-            price: '185 lei'
+            serviceName: 'L’oreal-mask-with-steam-device + pro-longer-filament', //L’oreal mask with steam device + L’oreal pro longer filament
+            price: 'L’oreal-mask-with-steam-device + pro-longer-filament-Price' //185 lei
         },
     ]
 }]

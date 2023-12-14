@@ -3,7 +3,7 @@
         <div class="col-lg-4 col-md-4 text-center pricing-grid my-3 modal-content">
             <div class="content">
                 <ng-container *ngFor="let content of modalContent">
-                    <h4 class="mb-lg-4 mb-md-3 mb-3">{{content.title | translate}}</h4>
+                    <h4 class="mb-lg-4 mb-md-3 mb-3 mt-4">{{content.title | translate}}</h4>
                     <div class="wls-hours-list">
                         <ul>
                             <li *ngFor="let service of content.services" class="d-flex">{{service.serviceName | translate}}
@@ -13,7 +13,7 @@
                     </div>
                 </ng-container>
                     <div  (click)="resetModal()" class="modal-close-button mt-md-4 mt-3 col-12">
-                        <span>Close</span>
+                        <span>{{'Close' | translate}}</span>
                 </div>
             </div>
         </div>

@@ -40,7 +40,7 @@ export class ModalGenericComponent implements OnInit {
               this.modalContent = pachete;
               break;
           case 'Extensii':
-              // this.modalContent = extensii;
+              this.modalContent = extensii;
               break;
           case 'Specials':
               this.modalContent = specials;

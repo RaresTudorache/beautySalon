@@ -88,103 +88,103 @@ export const tratamente = [{
         },
         {
             serviceName: 'After-bleaching',
-            price: 'After-bleaching-Price' // 50 lei
+            price: 'After-bleaching-Price'
         },
         {
             serviceName: 'L’oreal-mask-with-steam-device',
-            price: 'L’oreal-mask-with-steam-device-Price' // 100 lei
+            price: 'L’oreal-mask-with-steam-device-Price'
         },
         {
-            serviceName: 'L’oreal-mask-with-steam-device + pro-longer-filament', //L’oreal mask with steam device + L’oreal pro longer filament
-            price: 'L’oreal-mask-with-steam-device + pro-longer-filament-Price' //185 lei
+            serviceName: 'L’oreal-mask-with-steam-device + pro-longer-filament',
+            price: 'L’oreal-mask-with-steam-device + pro-longer-filament-Price'
         },
     ]
 }]
 export const vopsit = [{
-    title: 'Vopsit',
+    title: 'Haircolor',
     services: [
         {
-            serviceName: 'radacina',
-            price: '120 lei'
+            serviceName: 'Roots',
+            price: 'Roots-Price'
         },
         {
-            serviceName: 'lungime',
-            price: '150 lei'
+            serviceName: 'Length',
+            price: 'Length-Price'
         },
         {
-            serviceName: 'par lung',
-            price: '500 lei'
+            serviceName: 'Long-Hair',
+            price: 'Long-Hair-Price'
         },
         {
-            serviceName: 'par scurt',
-            price: '400 lei'
+            serviceName: 'Short-Hair',
+            price: 'Short-Hair-Price'
         },
         {
-            serviceName: 'balayage',
-            price: '700 - 800(extra lung) lei'
+            serviceName: 'Balayage-Hair-Color',
+            price: 'Balayage-Hair-Color-Price'
         },
         {
-            serviceName: 'nunantare',
-            price: '100 lei'
+            serviceName: 'Highlighting',
+            price: 'Highlighting-Price'
         },
         {
-            serviceName: 'decolorat radacina',
-            price: '300 lei'
+            serviceName: 'Roots-Bleaching',
+            price: 'Roots-Bleaching-Price'
         },
         {
-            serviceName: 'decolorat radacina + lungime',
-            price: '500 lei'
+            serviceName: 'Roots-Bleaching + Length',
+            price: 'Roots-Bleaching + Length-Price'
         },
         {
-            serviceName: 'tub vopsea masirel (L’oreal)',
-            price: '95 lei'
+            serviceName: 'L`oreal-Hair-Dye-Tube-Masirel',
+            price: 'L`oreal-Hair-Dye-Tube-Masirel-Price'
         },
         {
-            serviceName: 'tub vopsea INOA (L’oreal)',
-            price: '110 lei'
+            serviceName: 'L`oreal-Inoa-Hair-Dye-Tube-',
+            price: 'L`oreal-Inoa-Hair-Dye-Tube-Price'
         },
         {
-            serviceName: 'tub vopsea KEUNE',
-            price: '90 lei'
+            serviceName: 'Keune-Dye-Hair-Tube',
+            price: 'Keune-Dye-Hair-Tube-Price'
         },
         {
-            serviceName: 'cupa pudra bLONDOR PLEX',
-            price: '30 lei'
+            serviceName: 'Blondor-Plex-Powder-Bowl',
+            price: 'Blondor-Plex-Powder-Bowl-Price'
         },
     ]
 }]
 export const extensii = [
     {
-        title: 'Extensii TAPE ON',
+        title: 'Tape-On-Extensions',
         services: [
             {
-                serviceName: '- extensii TAPE ON par rusesc: 1 set (40 benzi)',
-                price: '- 55 cm - 1750 ron'
+                serviceName: 'Russian-Hair-Tape-On-55CM',
+                price: 'Russian-Hair-Tape-On-55CM-Price'
             },
             {
-                serviceName: '- extensii TAPE ON par rusesc: 1 set (40 benzi)',
-                price: '- 65 cm - 1950ron'
+                serviceName: 'Russian-Hair-Tape-On-65CM',
+                price: 'Russian-Hair-Tape-On-65CM-Price'
             },
         ]
     },
     {
-        title: 'Extensii NONO RING',
+        title: 'Nono-Ring-Extension',
         services: [
             {
-                serviceName: '- Extensii NONO RING : 100 suvite (120g)',
-                price: ['- 55 cm - 1750 lei', '- 65 cm - 1950 lei', '- 75 cm - 2250 lei']
+                serviceName: 'Nono-Ring-Extension-120G',
+                price: 'Nono-Ring-Extension-120G-Price'
             },
             {
-                serviceName: '- montaj',
-                price: '100 suvite - 400 lei'
+                serviceName: 'Installation',
+                price: 'Installation-Price'
             },
             {
-                serviceName: '- extra 25 suvite',
-                price: ' 100 ron'
+                serviceName: 'Installation-Extra',
+                price: 'Installation-Extra-Price'
             },
             {
-                serviceName: 'Intretinere',
-                price: ['- 100 suvite 500 lei', '25 suvite 125 lei']
+                serviceName: 'Maintenance',
+                price: 'Maintenance-Price'
             }]
     },
 ]
